@@ -1,0 +1,13 @@
+RecordColor = [
+    color = 00ffcc  # 豆沙绿
+]
+Shortcuts [
+  [
+    Cmd = CmdFindNext
+    Key = n
+  ]
+  [
+    Cmd = CmdFindPrev
+    Key = N
+  ]
+]
