@@ -18,6 +18,11 @@ sethome () {
 }
 
 
+# 其他参数配置
+# umask（user file-creation mode mask，用户文件创建模式掩码）
+# 同组用户不可写 其他用户不可读写执行(g-w, o-a)
+umask 027
+
 
 
 export config_home=~/.sadwy/config
