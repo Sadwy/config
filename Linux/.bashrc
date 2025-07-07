@@ -34,7 +34,7 @@ export NCURSES_HOME=${LOCAL_HOME}/share/ncurses
 export PATH="$NCURSES_HOME/bin:$PATH"
 export LD_LIBRARY_PATH="$NCURSES_HOME/lib:$LD_LIBRARY_PATH"
 export CPPFLAGS="-I$NCURSES_HOME/include" LDFLAGS="-L$NCURSES_HOME/lib"
-export PATH="${LOCAL_HOME}/share/zsh-5.9/bin:${PATH}"
+export PATH="${LOCAL_HOME}/share/zsh/bin:${PATH}"
 echo 'source ${config_home}/Linux/.zshrc'>~/.zshrc
 
 export CONDARC=${config_home}/Linux/.condarc
